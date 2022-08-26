@@ -1,8 +1,6 @@
 Use swagger to test the WebAPI:
 https://localhost:7139/swagger/index.html
 
-Tax fees are read from a JSON file (taxfees.json)
-
 WebAPI accepts data in JSON, Fx.
 
 ```json
@@ -28,3 +26,6 @@ WebAPI accepts data in JSON, Fx.
   ]
 }
 ```
+
+Tax fees are read from a JSON file (taxfees.json)
+Start time and end time are in text format due to missing TimeOnly JSON converter (there was no time to write one self).
